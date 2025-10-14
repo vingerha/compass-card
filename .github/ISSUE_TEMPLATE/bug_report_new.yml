@@ -1,6 +1,6 @@
-name: Bug report
+name: Bug report new
 description: File a bug report
-title: "[Bug]: "
+title: "[BugNew]: "
 labels: ["bug", "triage"]
 assignees:
   - []
