@@ -39,6 +39,7 @@ body:
       label: Add below a minimal (!) version of the yaml for reproduction
       description: |
         - minimal as-in: use common sensors as e.g. sun.sun
+      render: shell
     validations:
       required: true  
   - type: textarea
