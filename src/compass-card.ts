@@ -597,10 +597,7 @@ export class CompassCard extends LitElement {
     const ty = cyT - s * cy0;
 
     return svg`
-      <g class="circle-indicator" opacity=${opacity} transform="translate(${tx} ${ty}) scale(${s})">
-        <!-- Debug: show where we think the center is -->
-        <circle cx="${CIRCLE.CENTER}" cy="${cy0}" r="2" fill="red" opacity="0.8"/>
-        
+      <g class="circle-indicator" opacity=${opacity} transform="translate(${tx} ${ty}) scale(${s})">       
         <path d="m${CIRCLE.CENTER} 5.8262a9.1809 9.1809 0 0 0-0.0244 0 9.1809 9.1809 0 0 0-9.1813 9.18 9.1809 9.1813 0 0 0 9.1813 9.1813 9.1809 9.1809 0 0 0 0.0244 0z"
               fill="var(--compass-card-indicator-color)"/>
         <path d="m${CIRCLE.CENTER} 5.8262v18.361a9.1809 9.1809 0 0 0 9.1556-9.1813 9.1809 9.1809 0 0 0-9.1556-9.18z"
